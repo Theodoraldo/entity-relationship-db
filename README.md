@@ -96,6 +96,18 @@ git clone https://github.com/Theodoraldo/entity-relationship-db.git
 - Twitter: [@twitterhandle](https://twitter.com/AsimengOse33947)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/theodoreasimeng/)
 
+👤 **A.I.M. Shihab Uddin Khan**
+
+- GitHub: [@shihabrafio](https://github.com/shihabrafio)
+- Twitter: [@shihab_uddin19](https://twitter.com/shihab_uddin19)
+- LinkedIn: [Shihab Uddin Khan](https://www.linkedin.com/in/shihab-uddin-khan-45620a16a/)
+
+👤 **Kimita Wanjohi**
+
+- GitHub: [@shihabrafio](https://github.com/kimitaWanjohi)
+- Twitter: [@shihab_uddin19](https://twitter.com/myro_dev)
+- LinkedIn: [Shihab Uddin Khan](https://www.linkedin.com/in/kimitawanjohi/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
