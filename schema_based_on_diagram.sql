@@ -46,3 +46,10 @@ CREATE TABLE patients (
   date_of_birth date,
   PRIMARY KEY (id)
 );
+
+CREATE TABLE treatments (
+  id int GENERATED ALWAYS AS IDENTITY,
+  type varchar(60),
+  name varchar(100),
+  PRIMARY KEY (id)
+);
