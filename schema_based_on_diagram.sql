@@ -20,3 +20,12 @@ CREATE TABLE invoices (
   PRIMARY KEY (id)
 );
 CREATE INDEX invoices_medical_history_id_idx ON invoices(medical_history_id);
+
+CREATE TABLE med_treat_helper_table (
+  id int GENERATED ALWAYS AS IDENTITY,
+  treatment_id int,
+  med_history_id int,
+  PRIMARY KEY (id)
+);
+CREATE INDEX helper_table_med_history_id_idx ON med_treat_helper_table(treatment_id);
+CREATE INDEX helper_table_treatment_id_idx ON med_treat_helper_table(med_history_id);
