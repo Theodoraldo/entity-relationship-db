@@ -29,3 +29,20 @@ CREATE TABLE med_treat_helper_table (
 );
 CREATE INDEX helper_table_med_history_id_idx ON med_treat_helper_table(treatment_id);
 CREATE INDEX helper_table_treatment_id_idx ON med_treat_helper_table(med_history_id);
+
+CREATE TABLE medical_histories (
+  id int GENERATED ALWAYS AS IDENTITY,
+  admitted_at timestamp(6),
+  patient_id int,
+  status varchar(50), 
+  PRIMARY KEY (id)
+);
+
+CREATE INDEX medical_histories_patient_id_idx ON medical_histories(patient_id);
+
+CREATE TABLE patients (
+  id int GENERATED ALWAYS AS IDENTITY,
+  name varchar(100),
+  date_of_birth date,
+  PRIMARY KEY (id)
+);
