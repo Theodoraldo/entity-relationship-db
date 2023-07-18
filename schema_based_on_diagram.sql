@@ -53,3 +53,10 @@ CREATE TABLE treatments (
   name varchar(100),
   PRIMARY KEY (id)
 );
+
+ALTER TABLE invoice_items ADD CONSTRAINT invoice_items_invoice_id_fkey FOREIGN KEY (invoice_id) REFERENCES invoices (id);
+ALTER TABLE invoice_items ADD CONSTRAINT invoice_items_treatment_id_fkey FOREIGN KEY (treatment_id) REFERENCES treatments (id);
+ALTER TABLE invoices ADD CONSTRAINT invoices_medical_history_id_fkey FOREIGN KEY (medical_history_id) REFERENCES medical_histories (id);
+ALTER TABLE med_treat_helper_table ADD CONSTRAINT helper_table_med_history_id_fkey FOREIGN KEY (med_history_id) REFERENCES medical_histories (id);
+ALTER TABLE med_treat_helper_table ADD CONSTRAINT helper_table_treatment_id_fkey FOREIGN KEY (treatment_id) REFERENCES treatments (id);
+ALTER TABLE medical_histories ADD CONSTRAINT medical_histories_patient_id_fkey FOREIGN KEY (patient_id) REFERENCES patients (id);
