@@ -104,9 +104,9 @@ git clone https://github.com/Theodoraldo/entity-relationship-db.git
 
 👤 **Kimita Wanjohi**
 
-- GitHub: [@shihabrafio](https://github.com/kimitaWanjohi)
-- Twitter: [@shihab_uddin19](https://twitter.com/myro_dev)
-- LinkedIn: [Shihab Uddin Khan](https://www.linkedin.com/in/kimitawanjohi/)
+- GitHub: [@kimita](https://github.com/kimitaWanjohi)
+- Twitter: [@myro_dev](https://twitter.com/myro_dev)
+- LinkedIn: [Kimita Wanjohi](https://www.linkedin.com/in/kimitawanjohi/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
