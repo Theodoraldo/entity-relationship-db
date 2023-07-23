@@ -90,7 +90,7 @@ git clone https://github.com/Theodoraldo/entity-relationship-db.git
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author1**
+👤 **Theodore Asimeng-Osei**
 
 - GitHub: [@githubhandle](https://github.com/Theodoraldo)
 - Twitter: [@twitterhandle](https://twitter.com/AsimengOse33947)
